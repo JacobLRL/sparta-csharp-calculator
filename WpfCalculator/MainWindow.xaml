@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="Screen" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" FontSize="36"/>
+        <Button x:Name="_7" Content="7" HorizontalAlignment="Left" Height="66" Margin="10,86,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="7" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_8" Content="8" HorizontalAlignment="Left" Height="66" Margin="143,86,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="8" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_9" Content="9" HorizontalAlignment="Left" Height="66" Margin="275,86,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="9" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_4" Content="4" HorizontalAlignment="Left" Height="66" Margin="10,174,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="4" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_5" Content="5" HorizontalAlignment="Left" Height="66" Margin="143,174,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="5" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_6" Content="6" HorizontalAlignment="Left" Height="66" Margin="275,174,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="6" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_1" Content="1" HorizontalAlignment="Left" Height="66" Margin="10,261,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="1" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_2" Content="2" HorizontalAlignment="Left" Height="66" Margin="143,261,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="2" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_3" Content="3" HorizontalAlignment="Left" Height="66" Margin="275,261,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="3" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="_0" Content="0" HorizontalAlignment="Left" Height="66" Margin="143,344,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="0" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="C" Content="C" HorizontalAlignment="Left" Height="66" Margin="275,344,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="C" FontSize="18" Click="Clear_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="66" Margin="410,86,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="+" FontSize="18" Click="Operator_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="66" Margin="540,86,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="-" FontSize="18" Click="Operator_Click"/>
+        <Button x:Name="multiply" Content="*" HorizontalAlignment="Left" Height="66" Margin="410,174,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="*" FontSize="18" Click="Operator_Click"/>
+        <Button x:Name="divide" Content="/" HorizontalAlignment="Left" Height="66" Margin="540,174,0,0" VerticalAlignment="Top" Width="89" AutomationProperties.Name="/" FontSize="18" Click="Operator_Click"/>
+        <Button x:Name="Enter" Content="Enter" HorizontalAlignment="Left" Height="66" Margin="410,261,0,0" VerticalAlignment="Top" Width="219" AutomationProperties.Name="Enter" FontSize="22" Click="Enter_Click"/>
+
     </Grid>
 </Window>
